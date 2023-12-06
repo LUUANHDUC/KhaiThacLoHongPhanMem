@@ -29,8 +29,7 @@
 #### _NOTE:_ 
   _Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài đặt CMS Wordpress trên Local dựa trên nền tảng Web Server là Apache, Database Server là MySQL/MariaDB và PHP._
 
-#### Hướng Dẫn Cài Đặt Với Dòng Lệnh 
-#### _NOTE:_ 
+#### Hướng Dẫn Cài Đặt Với Dòng Lệnh  
   _Tất cả các câu lệnh dưới đều thực hiện trên Terminal máy Kali và thực hiện dưới quyền người dùng Root._
   ##### Bước 1: Cấu Hình MySQL
     sudo mysql
@@ -46,28 +45,27 @@
     tar -xvzf latest.tar.gz
     sudo mv wordpress /var/www/html/
 
-  ##### Bước 3: Chuyển đến thư mục WordPress và tạo một bản sao của tệp cấu hình mẫu.
+  ##### Bước 3: Chuyển đến thư mục WordPress và tạo một bản sao của tệp cấu hình mẫu
     cd /var/www/html/wordpress
     cp wp-config-sample.php wp-config.php
 
-  ##### Bước 4: Sửa tệp cấu hình để phản ánh cơ sở dữ liệu và người dùng bạn đã tạo trước.
+  ##### Bước 4: Sửa tệp cấu hình để phản ánh cơ sở dữ liệu và người dùng bạn đã tạo trước
     sudo nano wp-config.php
 
-  ##### Bước 5: Chỉnh sửa các dòng sau:
+  ##### Bước 5: Chỉnh sửa các dòng sau
     define('DB_NAME', 'wordpress');
     define('DB_USER', 'wordpressuser');
     define('DB_PASSWORD', 'your_password');
 
-  ##### Bước 6: Phân quyền và Khởi động lại Apache.
+  ##### Bước 6: Phân quyền và Khởi động lại Apache
     sudo chown -R www-data:www-data /var/www/html/wordpress
     sudo service apache2 restart
     
-##### Bước 7: Hoàn tất cài đặt thông qua Giao diện Web.
+##### Bước 7: Hoàn tất cài đặt thông qua Giao diện Web
 
 Mở trình duyệt và truy cập địa chỉ http://localhost/wordpress. Tiếp
 theo, bạn sẽ thấy trang cài đặt WordPress thông qua giao diện web. Nhập thông
-tin tài khoản mà bạn đã cấu hình avf hoàn tất quá trình cài đặt.
-
+tin tài khoản mà bạn đã cấu hình và hoàn tất quá trình cài đặt.
 
 #### Hướng Dẫn Cài Đặt Wordpress Với XAMPP
 

@@ -30,6 +30,8 @@
 _NOTE:_ Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài đặt CMS Wordpress dựa trên nền tảng Web Server là Apache, Database Server là MySQL/MariaDB và PHP.
 
   #### Hướng Dẫn Cài Đặt 1
+  
   #### Hướng Dẫn Cài Đặt 2
+  Hướng dẫn cài đặt Wordpress trên Kali với Xampp
   
 

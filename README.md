@@ -31,7 +31,11 @@ _NOTE:_ Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài �
 
   #### Hướng Dẫn Cài Đặt 1
   
-  #### Hướng Dẫn Cài Đặt 2
-  Hướng dẫn cài đặt Wordpress trên Kali với Xampp
-  
+  #### Hướng Dẫn Cài Đặt Wordpress Với Xampp
+
+* [Link tải XAMPP cho Linux (64-bit) ](https://www.apachefriends.org/download.html)
+
+* [Link tải Wordpress cho Linux Version 6.4.1](https://wordpress.org/download/)
+
+* [Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP](https://www.youtube.com/watch?v=N_xNkYv3SWc)
 

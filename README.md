@@ -26,7 +26,6 @@
 
 * [Hướng dẫn cài đặt](https://www.kali.org/docs/virtualization/install-vmware-guest-vm/)
 ### Cấu Hình Và Cài Đặt CMS Wordpress Trên Kali
-_Note: abc
+__NOTE:__ Đề cài được CMS Wordpress trên Kali
   #### Hướng Dẫn Cài Đặt
-
 

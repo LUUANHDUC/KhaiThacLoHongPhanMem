@@ -63,11 +63,11 @@
     sudo service apache2 restart
     
 ##### Bước 7: Hoàn tất cài đặt thông qua Giao diện Web.
-    Mở trình duyệt và truy cập địa chỉ http://localhost/wordpress. Tiếp
-    
-    theo, bạn sẽ thấy trang cài đặt WordPress thông qua giao diện web. Nhập thông
-    
-    tin tài khoản mà bạn đã cấu hình avf hoàn tất quá trình cài đặt.
+
+Mở trình duyệt và truy cập địa chỉ http://localhost/wordpress. Tiếp
+theo, bạn sẽ thấy trang cài đặt WordPress thông qua giao diện web. Nhập thông
+tin tài khoản mà bạn đã cấu hình avf hoàn tất quá trình cài đặt.
+
 
 #### Hướng Dẫn Cài Đặt Wordpress Với XAMPP
 

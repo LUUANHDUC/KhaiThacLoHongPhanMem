@@ -8,7 +8,6 @@
 [Link Download Windows 10 dành cho Vmware](https:/developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
 
 [Hướng dẫn cài đặt](https://www.youtube.com/watch?v=v0Af4UIFg_8)
-
 ### Cài Đặt Burp Suite Community Edition (Windows 64-bit)
 
 #### Hướng Dẫn Cài Đặt

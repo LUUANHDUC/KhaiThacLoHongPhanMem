@@ -26,7 +26,9 @@
 
 * [Hướng dẫn cài đặt](https://www.kali.org/docs/virtualization/install-vmware-guest-vm/)
 ### Cấu Hình Và Cài Đặt CMS Wordpress Trên Kali
+
 _NOTE:_ Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài đặt CMS Wordpress dựa trên nền tảng Web Server là Apache, Database Server là MySQL/MariaDB và PHP.
+
   #### Hướng Dẫn Cài Đặt 1
   #### Hướng Dẫn Cài Đặt 2
   

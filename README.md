@@ -7,7 +7,7 @@
 
 * [Link Download Windows 10 dành cho Vmware](https:/developer.microsoft.com/en-us/wind/downloads/virtual-machines/)
 
-* [Hướng dẫn cài đặt](https://www.youtube.com/watch?v=v0Af4UIFg_8)
+* [Video hướng dẫn cài đặt](https://www.youtube.com/watch?v=v0Af4UIFg_8)
 ### Cài Đặt Burp Suite Community Edition (Windows 64-bit)
 
   #### Hướng Dẫn Cài Đặt
@@ -31,11 +31,11 @@ _NOTE:_ Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài �
 
   #### Hướng Dẫn Cài Đặt 1
   
-  #### Hướng Dẫn Cài Đặt Wordpress Với Xampp
+  #### Hướng Dẫn Cài Đặt Wordpress Với XAMPP
 
-* [Link tải XAMPP cho Linux (64-bit) ](https://www.apachefriends.org/download.html)
+* [Link Download XAMPP cho Linux (64-bit) ](https://www.apachefriends.org/download.html)
 
-* [Link tải Wordpress cho Linux Version 6.4.1](https://wordpress.org/download/)
+* [Link Download Wordpress cho Linux Version 6.4.1](https://wordpress.org/download/)
 
 * [Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP](https://www.youtube.com/watch?v=N_xNkYv3SWc)
 

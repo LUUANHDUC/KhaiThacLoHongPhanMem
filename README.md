@@ -33,8 +33,7 @@ _NOTE:_ Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài �
 
 _NOTE_ Tất cả các câu lệnh dưới đều thực hiện trên Terminal máy Kali và thực hiện dưới quyền người dùng Root.
   
-   ##### Bước 1:
-
+  ##### Bước 1:
   sudo mysql
   
   CREATE DATABASE wordpress;

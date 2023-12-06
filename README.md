@@ -31,7 +31,22 @@ _NOTE:_ Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài �
 
   #### Hướng Dẫn Cài Đặt Với Dòng Lệnh
 
+_NOTE_ Tất cả các câu lệnh dưới đều thực hiện trên Terminal máy Kali và thực hiện dưới quyền người dùng Root.
   
+   ##### Bước 1:
+
+  sudo mysql
+  
+  CREATE DATABASE wordpress;
+  
+  CREATE USER 'wordpressuser'@'localhost' IDENTIFIED BY 'your_password';
+  
+  GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressuser'@'localhost';
+  
+  FLUSH PRIVILEGES;
+  
+  EXIT;
+
   #### Hướng Dẫn Cài Đặt Wordpress Với XAMPP
 
 * [Link Download XAMPP cho Linux (64-bit) ](https://www.apachefriends.org/download.html)

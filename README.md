@@ -1,4 +1,9 @@
 # Hướng Dẫn Xây Dựng Môi Trường Khai Thác Lỗ Hổng CVE Trên Wordpress
+
+Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành công ba lỗ hổng CVE lần lượt là CVE-2023-2546, CVE-2023-3460, CVE-2023-4596 tồn tại trên các Plugin WP User Switch 1.0.2, Ultimate Member 2.6.5, Forminator 1.24.6 nằm trên CMS Wordpress.
+
+## Mô Hình Triển Khai
+
 ## Cấu Hình Máy Attacker
 
 ### Windows 10 trên VMware

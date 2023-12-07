@@ -67,7 +67,7 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
     sudo chown -R www-data:www-data /var/www/html/wordpress
     sudo service apache2 restart
     
-##### Bước 7: Hoàn tất cài đặt thông qua Giao diện Web
+  ##### Bước 7: Hoàn tất cài đặt thông qua Giao diện Web
 
 Mở trình duyệt và truy cập địa chỉ http://localhost/wordpress. Tiếp
 theo, bạn sẽ thấy trang cài đặt WordPress thông qua giao diện web. Nhập thông
@@ -80,4 +80,6 @@ tin tài khoản mà bạn đã cấu hình và hoàn tất quá trình cài đ�
 * [Link Download Wordpress cho Linux Version 6.4.1](https://wordpress.org/download/)
 
 * [Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP](https://www.youtube.com/watch?v=N_xNkYv3SWc)
+
+### Cấu Hình Và Cài Đặt Plugin Trên Wordpress
 

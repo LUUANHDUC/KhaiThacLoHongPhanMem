@@ -4,6 +4,7 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
 
 ## Mô Hình Triển Khai
 
+![Mô_Hình_Hệ_Thống](https://github.com/LUUANHDUC/KhaiThacLoHongPhanMem/assets/125422094/36dae73a-ceba-4e2a-8e51-977307209b97)
 ## Cấu Hình Máy Attacker
 
 ### Windows 10 trên VMware

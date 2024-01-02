@@ -37,9 +37,12 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
 
 #### Hướng Dẫn Cài Đặt Với Dòng Lệnh  
   _-Tất cả các câu lệnh dưới đều thực hiện trên Terminal máy Kali và thực hiện dưới quyền người dùng Root._
-_-<Tên_CSDL>: Thay bằng tên của cơ sở dữ liệu mà bạn muốn tạo_
-  _-<Tên_người_dùng>: Thay bằng tên của người dùng bạn muốn tạo_
-  _-<Mật_khẩu_người_dùng>: Thay bằng mật khẩu mà bạn muốn sử dụng cho người dùng muốn tạo_
+  
+  * _<Tên_CSDL>: Thay bằng tên của cơ sở dữ liệu mà bạn muốn tạo_
+
+  * _<Tên_người_dùng>: Thay bằng tên của người dùng bạn muốn tạo_
+  
+  * _<Mật_khẩu_người_dùng>: Thay bằng mật khẩu mà bạn muốn sử dụng cho người dùng muốn tạo_
   ##### Bước 1: Cấu Hình MySQL
     sudo mysql
     CREATE DATABASE <Tên_CSDL>;

@@ -36,17 +36,18 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
   _Trong hướng dẫn này chúng tôi sẽ hướng dẫn 2 cách cài đặt CMS Wordpress trên Local dựa trên nền tảng Web Server là Apache, Database Server là MySQL/MariaDB và PHP._
 
 #### Hướng Dẫn Cài Đặt Với Dòng Lệnh  
-  _-Tất cả các câu lệnh dưới đều thực hiện trên Terminal máy Kali và thực hiện dưới quyền người dùng Root._
+  _Tất cả các câu lệnh dưới đều thực hiện trên Terminal máy Kali và thực hiện dưới quyền người dùng Root._
   
   * _<Tên_CSDL>: Thay bằng tên của cơ sở dữ liệu mà bạn muốn tạo_
 
   * _<Tên_người_dùng>: Thay bằng tên của người dùng bạn muốn tạo_
   
   * _<Mật_khẩu_người_dùng>: Thay bằng mật khẩu mà bạn muốn sử dụng cho người dùng muốn tạo_
+
   ##### Bước 1: Cấu Hình MySQL
     sudo mysql
     CREATE DATABASE <Tên_CSDL>;
-    CREATE USER '<Tên_người_dùng>'@'localhost>' IDENTIFIED BY 'Mật_khẩu_người_dùng';
+    CREATE USER '<Tên_người_dùng>'@'localhost>' IDENTIFIED BY '<Mật_khẩu_người_dùng>';
     GRANT ALL PRIVILEGES ON <Tên_CSDL>.* TO '<Tên_người_dùng>'@'localhost';
     FLUSH PRIVILEGES;
     EXIT;
@@ -65,9 +66,11 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
     sudo nano wp-config.php
 
   ##### Bước 5: Chỉnh sửa các dòng sau
-    define('DB_NAME', 'wordpress');
-    define('DB_USER', 'wordpressuser');
-    define('DB_PASSWORD', 'your_password');
+  _Ta sẽ thay các giá trị trong nháy đơn bằng các giá trị đã tạo ở Bước 1_
+  
+    define('DB_NAME', '<Tên_CSDL>');
+    define('DB_USER', '<Tên_người_dùng>');
+    define('DB_PASSWORD', '<Mật_khẩu_người_dùng>');
 
   ##### Bước 6: Phân quyền và Khởi động lại Apache
     sudo chown -R www-data:www-data /var/www/html/wordpress

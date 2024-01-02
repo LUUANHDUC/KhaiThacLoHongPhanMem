@@ -91,4 +91,30 @@ tin tài khoản mà bạn đã cấu hình và hoàn tất quá trình cài đ�
 * [Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP](https://www.youtube.com/watch?v=N_xNkYv3SWc)
 
 ### Cấu Hình Và Cài Đặt Plugin Trên Wordpress
+_Các bạn hãy Download các Plugin về máy với link tải bên dưới, mỗi Plugin sẽ sử dụng để triển khai và khai thác một CVE đã nêu_
 
+* [Link Download Plugin WP User Switch 1.0.2](https://downloads.wordpress.org/plugin/wp-user-switch.1.0.2.zip)
+
+* [Link Download Plugin Ultimate Member 2.6.5](https://downloads.wordpress.org/plugin/ultimate-member.2.6.5.zip)
+
+* [Link Download Plugin Forminator 1.24.6](https://downloads.wordpress.org/plugin/forminator.1.24.6.zip)
+
+#### Hướng Dẫn Import một Plugin vào CMS Wordpress
+_Đây là quá trình cài đặt một Plugin vào Wordpress sau khi đã tải về_
+
+ ##### Bước 1: Giải nén tập tin Plugin đã tải về
+    tar - xvzf forminator.1.24.6.tar.gz
+    
+  ##### Bước 2: Di chuyển vào thư mục plugin của WordPress
+    mv forminator /var/www/html/wordpress/wp-content/plugins/
+
+  ##### Bước 3: Vô trang quản trị, kích hoạt plugin
+  
+  Tại Menu trái trong trang quản trị Wordpress của admin:
+  
+    1. Chọn vào mục Plugins -> Installed Plugins 
+    2. Tìm tên của các Plugin mà bạn muốn Active -> chọn Active
+    3. Nếu Plugin được Active thành công sẽ hiển thị Deactive (để dừng hoạt động của Plugin đó).
+
+Với Plugin phiên bản mới nhất, ở trang quản trị plugin, bấm cập nhật là hệ thống tự tải và cài đặt phiên bản mới nhất cho Plugin đó.
+ 

@@ -13,7 +13,10 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
 
 * [Link Download Windows 10 dành cho Vmware](https:/developer.microsoft.com/en-us/wind/downloads/virtual-machines/)
 
-* [Video hướng dẫn cài đặt](https://www.youtube.com/watch?v=v0Af4UIFg_8)
+* Video hướng dẫn cài đặt 
+
+[![Video Title](https://img.youtube.com/vi/v0Af4UIFg_8/0.jpg)](https://www.youtube.com/watch?v=v0Af4UIFg_8)
+
 ### Cài Đặt Burp Suite Community Edition (Windows 64-bit)
 
   #### Hướng Dẫn Cài Đặt
@@ -45,6 +48,18 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
   * _<Tên_người_dùng>: Thay bằng tên của người dùng bạn muốn tạo_
   
   * _<Mật_khẩu_người_dùng>: Thay bằng mật khẩu mà bạn muốn sử dụng cho người dùng muốn tạo_
+
+##### Kiểm tra PHP
+  Trước khi cài đặt, bạn cần kiểm tra trên máy đã cài đặt PHP hay chưa bằng câu lệnh sau:
+  
+    php --version
+    
+  Nếu máy bạn đã cài đặt PHP nó sẽ cung cấp cho bạn version của PHP
+    
+  Nếu chưa cài đặt bạn có thể cài đặt PHP bằng câu lệnh sau:
+
+    sudo apt update
+    sudo apt install php
 
   ##### Bước 1: Cấu Hình MySQL
     sudo mysql
@@ -90,7 +105,9 @@ tin tài khoản mà bạn đã cấu hình và hoàn tất quá trình cài đ�
 
 * [Link Download Wordpress cho Linux Version 6.4.1](https://wordpress.org/download/)
 
-* [Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP](https://www.youtube.com/watch?v=N_xNkYv3SWc)
+* Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP
+
+[![Video hướng dẫn cài đặt Wordpress trên Linux sử dụng XAMPP](https://img.youtube.com/vi/N_xNkYv3SWc/0.jpg)](https://www.youtube.com/watch?v=N_xNkYv3SWc)
 
 ### Cấu Hình Và Cài Đặt Plugin Trên Wordpress
 _Các bạn hãy Download các Plugin về máy với link tải bên dưới, mỗi Plugin sẽ sử dụng để triển khai và khai thác một CVE đã nêu_

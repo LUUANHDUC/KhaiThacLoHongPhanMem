@@ -22,7 +22,7 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
 
 - [Hướng dẫn cài đặt](https://portswigger.net/burp/documentation/desktop/getting-started/download-and-install)
 
-- Hướng dẫn cấu hình chặn bắt request trên BurpSuite
+- Video hướng dẫn cài đặt và cấu hình chặn bắt Request trên BurpSuite
 
 [![Alt text](https://img.youtube.com/vi/-ozGijESmTY/0.jpg)](https://www.youtube.com/watch?v=-ozGijESmTY&list=PLaoi7ADVdlKf9DnFJvCUB2yDg07Cunz07)
 ## Cấu Hình Máy Victim

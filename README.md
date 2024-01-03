@@ -24,8 +24,7 @@ Hướng dẫn này giúp triển khai môi trường nhằm khai thác thành c
 
 - Hướng dẫn cấu hình chặn bắt request trên BurpSuite
 
-  [![Alt text](https://img.youtube.com/vi/-ozGijESmTY/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=-ozGijESmTY&list=PLaoi7ADVdlKf9DnFJvCUB2yDg07Cunz07)
-
+[![Alt text](https://img.youtube.com/vi/-ozGijESmTY/0.jpg)](https://www.youtube.com/watch?v=-ozGijESmTY&list=PLaoi7ADVdlKf9DnFJvCUB2yDg07Cunz07)
 ## Cấu Hình Máy Victim
 
 ### Kali Linux trên VMware
